@@ -1,13 +1,13 @@
 <template>
   <div id="app">
-    <div class="container-fluid p-0">
-    <Header/>
-
+    <div class="container">
+      <Header/>
+    </div>
     <Main/>
 
     <Footer/>
 
-    </div>
+    
   </div>
 </template>
 
