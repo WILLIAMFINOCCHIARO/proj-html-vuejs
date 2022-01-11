@@ -1,7 +1,7 @@
 <template>
   <nav>
   <div class="container">
-    <div id="bar" class="row justify-content-center">
+    <div id="bar" class="row justify-content-center ">
       <div class="logo col-4">
         <img src="../assets/images/takeout-logo.png" class="img-fluid">
       </div>
