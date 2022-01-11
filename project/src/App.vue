@@ -25,5 +25,5 @@ export default {
 
 <style lang="scss">
 @import "@/assets/commons.scss";
-@import "@/assets/ColorPhloxVar.scss";
+@import "@/assets/global.scss";
 </style>
