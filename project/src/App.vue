@@ -1,10 +1,13 @@
 <template>
   <div id="app">
+    <div class="container-fluid p-0">
     <Header/>
 
-    <Main :sliderImg="imgSlider"/>
+    <Main/>
 
     <Footer/>
+
+    </div>
   </div>
 </template>
 
