@@ -2,7 +2,7 @@
   <div id="app">
     <Header/>
 
-    <Main :sliderImg="imgSlider"/>
+    <Main/>
 
     <Footer/>
   </div>
