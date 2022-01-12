@@ -1,7 +1,7 @@
 <template>
   <nav>
-  <div class="container">
-    <div id="bar" class="row justify-content-center ">
+  <div class="container pt-3">
+    <div id="bar" class="row justify-content-between align-items-center">
       <div class="logo col-4">
         <img src="../assets/images/takeout-logo.png" class="img-fluid">
       </div>
@@ -40,7 +40,7 @@
       }
     }
     a:hover {
-      color:yellow;
+      color:$yellow_txt;
     }
     
 </style>
