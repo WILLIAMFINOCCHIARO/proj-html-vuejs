@@ -1,7 +1,5 @@
 <template>
   <header>
-    <div class="logo w-"></div>
-    <div class="logotwo"></div>
     <NavBar/>
     <Jumbo/>
   </header>
@@ -23,7 +21,6 @@ export default {
 <style lang="scss">
 @import "@/assets/global.scss";
     header {
-      width:100%;
       height:700px;
       background-image:url("../assets/images/demo-takeout.jpg");
       background-size:100% 100%;
