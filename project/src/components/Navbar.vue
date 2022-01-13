@@ -3,24 +3,12 @@
     <div class="container pt-2">
       <div id="bar" class="row justify-content-between align-items-center">
         <div class="logo col-4">
-          <img src="../assets/images/takeout-logo.png" class="img-fluid">
+          <img src="../assets/images/takeout-logo.png" >
         </div>
         <div class="col-6 ">
             <ul class="nav nav-pills text-muted d-flex align-items-center ">
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="#">Order Online</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link">News</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link">Contact Us</a>
+              <li class="nav-item" v-for="(items,index) in navLink" :key="index">
+                <a class="nav-link">{{items}}</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link"> <i  class="fas fa-shopping-basket"></i></a>
@@ -33,6 +21,20 @@
 </template>
 
 <script>
+export default {
+    name: "NavBar",
+    data(){
+        return {
+            navLink: [
+                "Home",
+                "Order Online",
+                "About",
+                "News",
+                "Contact Us"
+            ]
+        }
+    }
+}
 
 </script>
 
