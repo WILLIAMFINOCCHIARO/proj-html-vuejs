@@ -44,7 +44,7 @@
         </div>
         
       </div>
-      <div class="text-center mt-5">  <a href="#" class="btn btn-primary border-0 fw-bold rounded-pill px-4 py-2">START YOUR ORDER <i class="fas fa-arrow-circle-right"></i> </a></div>
+      <div class="text-center mt-5">  <a href="#" id="but" class="btn btn-primary border-0 fw-bold rounded-pill px-4 py-2">START YOUR ORDER <i class="fas fa-arrow-circle-right"></i> </a></div>
     
     </div>
     <div id="wave" class="row mt-5">
@@ -59,7 +59,7 @@
 <style lang="scss">
 @import "@/assets/global.scss";
     section {
-      .btn {
+      #btn {
         background-color:$red_txt;
         }
     }
