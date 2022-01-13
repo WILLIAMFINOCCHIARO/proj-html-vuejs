@@ -48,7 +48,6 @@
     
     </div>
     <div id="wave" class="row mt-5">
-      
     </div>
   </section>
 </template>
@@ -60,15 +59,26 @@
 <style lang="scss">
 @import "@/assets/global.scss";
     section {
-      z-index: 99;
       .btn {
         background-color:$red_txt;
         }
     }
-    #wave {
+    #wave  {
       height: 300px;
-      background-image: url("../assets/images/first-order-background-scaled.jpg");
+      position:relative;
+      background: url("../assets/images/first-order-background-scaled.jpg");
       background-size: 100% 100%;
+    }
+    #wave:before {
+      content:'';
+      position: absolute;
+      bottom:0;
+      left:0;
+      width:100%;
+      height: 160px;
+      background:url("../assets/images/wave.png");
+      background-size:cover;
+      background-repeat: no-repeat;
     }
     .col-3 {
       .card-body{

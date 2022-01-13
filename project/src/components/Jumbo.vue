@@ -4,7 +4,7 @@
       <div id="jumbo" class="row">
         <div class="col-4">
           <div class="card bg-transparent border-0 ">
-            <div class="card-header text-light fs-3 fw-bold ">
+            <div class="card-header text-light fs-1 fw-bold ">
               Hungry?
             </div>
             <div class="card-body">

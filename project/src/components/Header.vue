@@ -2,12 +2,11 @@
   <header>
     <div class="logo text-end text-light"><i class="fas fa-plus"></i></div>
     <NavBar/>
-    <div class="demons text-end">
-        <i class="fas fa-list-ul d-flex flex-column fs-5 text-light">Demons</i>
+    <div class="demons d-flex justify-content-end ">
+        <button class="btn border-0 btn-primary d-flex flex-column "><a href="#"></a><i class="fas fa-list-ul"></i>Demos</button>
     </div>
-    <div class="onsale text-end">
-        <div><span>$</span>39</div>
-        <div>On Sale</div>
+    <div class="onsale d-flex justify-content-end">
+        <button class="btn border-0 btn-primary d-flex flex-column"><a href="#"></a><i>$39</i>On Sale</button>
     </div>
     <Jumbo/>
   </header>
